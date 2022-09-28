@@ -1,0 +1,31 @@
+.AboutMyself{ 
+    margin: 36px auto;
+    width: 600px;
+    padding: 36px;
+    border-radius: 12px;
+    background-color: #DDE8FF;
+    box-shadow: 10px 10px #FCFFDD; 
+} 
+
+.ProfileImage{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://yt3.ggpht.com/JLnHmficIy94iS2JLwv43bknGwlwYK9MeVCAlJ4Yci2sKWlMCpL6yIWEzQsNLIOxFUiGCL9w8g8=s900-c-k-c0x00ffffff-no-rj);
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+#wv{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #ECB6FF;
+    text-decoration-thickness: 2px;
+}
+
+#bl{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: #6392F7;
+    text-decoration-thickness: 2px;
+}
