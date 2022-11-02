@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <hr>
+    <h4 id="clock" style="text-align:center">00:00:00</h4>
+    <hr>
+    <br>
+    <form class="hidden" id="login-form">
+        <input required maxlength="15" type="text" placeholder="이름을 입력하세요">
+        <input type="submit" value="HELLO">
+    </form>
+    <h1 class="hidden" id="greeting"></h1>
+    <br>
+    <form class="hidden" id="dDay-form">
+        <span>🍀디데이 날짜 선택🍀</span><br>
+        <input required type="date"><br>
+        <input type="submit" value="Enter">
+    </form>
+    <h2 class="hidden" id="d-day"></h2>
+    <br>
+    <h1 class="hidden" id="greeting"></h1>
+    <div id="todo"> TO DO'S
+        <form id="todo-form">
+            <input required type="text" placeholder="일정 추가하기">
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <h2 class="hidden" id="d-day"></h2>
+    <script src="dday.js"></script>
+    <script src="clock.js"></script>
+    <script src="login.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather_bg.js"></script>
+</body>
+</html>
